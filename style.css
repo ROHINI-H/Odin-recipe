@@ -64,8 +64,6 @@ a:hover, a:focus-visible {
     color: rgb(169, 173, 240);
 }
 
-
-
 footer {
     background-color: black;
     color: whitesmoke;
@@ -76,6 +74,11 @@ footer {
 @media only screen and (max-width: 600px) {
     ul {
         flex-direction: column;
-        gap: 50px;
+        padding: 0;
+        margin: var(--OPTIMAL-SIZE) 0;
+    }
+
+    .heading {
+        padding: 5px;
     }
 }
