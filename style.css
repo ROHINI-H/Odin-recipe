@@ -32,6 +32,8 @@ ul {
     padding: var(--OPTIMAL-SIZE);
     margin: var(--OPTIMAL-SIZE);
     display: flex;
+    flex-wrap: wrap;
+    gap: var(--OPTIMAL-SIZE);
     flex: 1;
     justify-content: space-around;
     align-items: center;
