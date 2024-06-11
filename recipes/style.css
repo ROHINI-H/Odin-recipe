@@ -1,108 +1,124 @@
-@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Texturina:ital,opsz,wght@0,12..72,100..900;1,12..72,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&family=Merienda:wght@300..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Texturina:ital,opsz,wght@0,12..72,100..900;1,12..72,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&family=Merienda:wght@300..900&display=swap");
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: rgb(242, 240, 233);
+  background-color: rgb(242, 240, 233);
 }
 
 :root {
-    /* Size */
-    --OPTIMAL-SIZE: 50px;
-    --IMG-SIZE: 400px;
+  /* Size */
+  --OPTIMAL-SIZE: 50px;
+  --IMG-SIZE: 400px;
+  --SHADOW-SIZE: 2px 2px 10px;
 
-    /* Fonts */
-    --HEADING-FONT:  "Alkatra", system-ui;
-    --SUBHEADING-FONT: "Merienda", cursive;
-    --SUB-FONT: "Eczar", serif;
-    --CONTENTS-FONT: "Texturina", serif;
+  /* Fonts */
+  --HEADING-FONT: "Alkatra", system-ui;
+  --SUBHEADING-FONT: "Merienda", cursive;
+  --SUB-FONT: "Eczar", serif;
+  --CONTENTS-FONT: "Texturina", serif;
 }
 
 img {
-    display: block;
-    width: var(--IMG-SIZE);
-    height: var(--IMG-SIZE);
-    border-radius: 50%;
-    margin: var(--OPTIMAL-SIZE);
-    margin-left: 20%;
-    position: relative;
+  display: block;
+  width: var(--IMG-SIZE);
+  height: var(--IMG-SIZE);
+  border-radius: 50%;
+  margin: var(--OPTIMAL-SIZE);
+  margin-left: 20%;
+  position: relative;
+  box-shadow: var(--SHADOW-SIZE);
 }
 
 .dish-name {
-    font-family: var(--HEADING-FONT);
-    font-size: 1.5em;
-    padding: 15px 100px;
-    text-align: center;
-    background-color: rgba(255,255,255, 0.9);
-    position: absolute;
-    top: 280px;
-    left: 38%;
+  box-shadow: var(--SHADOW-SIZE);
+  font-family: var(--HEADING-FONT);
+  font-size: 1.5em;
+  padding: 15px 100px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  top: 280px;
+  left: 38%;
 }
 
 .dish-desc {
-    font-family: var(--SUBHEADING-FONT);
-    font-size: 0.9em;
+  font-family: var(--SUBHEADING-FONT);
+  font-size: 0.9em;
 }
 
 main {
-    background-color: rgb(249, 248, 246);
-    margin: 0 auto;
-    width: 60%;
-    padding: var(--OPTIMAL-SIZE);
+  background-color: rgb(249, 248, 246);
+  margin: 50px auto;
+  width: 60%;
+  padding: var(--OPTIMAL-SIZE);
+  box-shadow: var(--SHADOW-SIZE);
 }
 
 .subheading {
-    font-family: var(--SUBHEADING-FONT);
-    font-size: 2em;
-    margin: 10px;
+  font-family: var(--SUBHEADING-FONT);
+  font-size: 2em;
+  margin: 10px;
 }
 
 .contents {
-    font-family: var(--CONTENTS-FONT);
-    font-size: 20px;
-    padding-bottom: 1.5em;
-    line-height: 1.8;
-    word-spacing: 4px;
+  font-family: var(--CONTENTS-FONT);
+  font-size: 20px;
+  padding-bottom: 1.5em;
+  line-height: 1.8;
+  word-spacing: 4px;
 }
 
 ul > li {
-    list-style-position: inside;
-    list-style-type: circle;
+  list-style-position: inside;
+  list-style-type: circle;
 }
 
 .container {
-    display: flex;
-    justify-content: space-around;
-    align-items: stretch;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
 }
 
 .container-item {
-    width: 50%;
-    padding: 0 5%;
+  width: 50%;
+  padding: 0 5%;
 }
 
 .home-page {
-    display: block;
-    text-align: center;
-    font-size: 20px;
-    padding: 20px;
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
 }
 
-a::before, a, a::after {
-    text-decoration: none;
+a::before,
+a,
+a::after {
+  text-decoration: none;
 }
 
-a:visited, a:link {
-    color: rgb(103, 22, 22);
+a:visited,
+a:link {
+  color: rgb(103, 22, 22);
 }
 
-a:hover,a:focus, a:active {
-    color: rgb(53, 102, 88);
-    font-size: 25px;
+a:hover,
+a:focus,
+a:active {
+  color: rgb(53, 102, 88);
+  font-size: 25px;
+}
+
+footer {
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+  padding: var(--OPTIMAL-SIZE);
 }
