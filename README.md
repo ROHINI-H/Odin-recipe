@@ -1,6 +1,6 @@
  # 🍛 Odin-recipe
 
-I have developed this simple static website as the part of project from [Odin foundation course](https://www.theodinproject.com/lessons/foundations-recipes) using HTML and CSS from stratch. This website has a homepage that links 3 recipe sites. Each recipe page has a small description followed by ingredients and steps to make a delicious recipe. Take a look at my work [here](https://rohini-h.github.io/Odin-recipe/).
+I have developed this simple static website as the part of project from [Odin foundation course](https://www.theodinproject.com/lessons/foundations-recipes) using HTML and CSS from scratch. This website has a homepage that links 3 recipe sites. Each recipe page has a small description followed by ingredients and steps to make a delicious recipe. Take a look at my work [here](https://rohini-h.github.io/Odin-recipe/).
 
 # 👩🏻‍💻 Technologies used
 [![My Skills](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev)
